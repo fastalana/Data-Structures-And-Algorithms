@@ -5,7 +5,7 @@ This repository includes answers to six questions related to the data structures
 * Solution
 * Time and Space Complexity Explanation
 
-#### _Description:_
+_Description:_
 
 The lookup operation (i.e., `get()`) and `put()` / `set()` is supposed to be fast for a cache memory.
 
@@ -31,7 +31,7 @@ For the current problem, you can consider the `size of cache = 5`.
 * Solution
 * Time and Space Complexity Explanation
 
-#### _Description:_
+_Description:_
 
 Write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
@@ -65,5 +65,55 @@ Python's os module will be useful—in particular, you may want to use the follo
 
 **Note:** `os.walk()` is a handy Python method which can achieve this task very easily. However, for this problem you are not allowed to use `os.walk()`.
 
+## Project 3 - Huffman Coding
+* Solution
+* Time and Space Complexity Explanation
 
+_Description:_
+A **Huffman code** is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information.
 
+The Huffman algorithm works by assigning codes that correspond to the relative frequency of each character for each character. The Huffman code can be of any length and does not require a prefix; therefore, this binary code can be visualized on a binary tree with each encoded character being stored on leafs.
+
+#### Resources:
+* [Huffman Visualization!](https://people.ok.ubc.ca/ylucet/DS/Huffman.html)
+* [Tree Generator](http://huffman.ooz.ie/)
+
+There are many types of pseudocode for this algorithm. At the basic core, it is comprised of building a Huffman tree, encoding the data, and, lastly, decoding the data.
+
+Here is one type of pseudocode for this coding schema:
+
+* Take a string and determine the relevant frequencies of the characters.
+* Build and sort a list of tuples from lowest to highest frequencies.
+* Build the Huffman Tree by assigning a binary code to each letter, using shorter codes for the more frequent letters. (This is the heart of the Huffman algorithm.)
+* Trim the Huffman Tree (remove the frequencies from the previously built tree).
+* Encode the text into its compressed form.
+* Decode the text from its compressed form.
+
+You then will need to create encoding, decoding, and sizing schemas.
+
+## Project 4 - Active Directory
+* Solution
+* Time and Space Complexity Explanation
+
+_Description:_
+In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
+
+Write a function that provides an efficient look up of whether the user is in a group.
+
+## Project 5 - Block Chain
+* Solution
+* Time and Space Complexity Explanation
+
+_Description:_
+A [Blockchain](https://en.wikipedia.org/wiki/Blockchain) is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash, the [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time) when the block was created, and text strings as the data.
+
+Use your knowledge of linked lists and hashing to create a [blockchain implementation](/view/Lesson-2-Data-Structures/Project-Show-Me-The-Data-Structures/Blockchain.png).
+
+## Project 6 - Union and Intersection of Two Linked Lists
+* Solution
+* Time and Space Complexity Explanation
+
+_Description:_
+Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
+
+You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
