@@ -2,6 +2,10 @@
 This repository includes answers to six questions related to the data structures.  Each answer includes Python file, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.
 
 ## Project 1 - Least Recently Used Cache (LRU)
+#### * Solution
+#### * Time and Space Complexity Explanation
+#### * Solution
+#### * Description _(see below)_
 The lookup operation (i.e., `get()`) and `put()` / `set()` is supposed to be fast for a cache memory.
 
 While doing the `get()` operation, if the entry is found in the cache, it is known as a `cache hit`. If, however, the entry is not found, it is known as a `cache miss`.
@@ -23,6 +27,11 @@ For the current problem, you can consider the `size of cache = 5`.
 ### Time and Space Complexity _Explanation_
 
 ## Project 2 - Finding Files
+#### * Solution
+#### * Time and Space Complexity Explanation
+#### * Solution
+#### * Description _(see below)_
+
 Write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
 Here is an example of a test directory listing, which can be downloaded [here](/tree/Project-Show-Me-The-Data-Structures/testdir):
@@ -55,5 +64,5 @@ Python's os module will be useful—in particular, you may want to use the follo
 
 **Note:** `os.walk()` is a handy Python method which can achieve this task very easily. However, for this problem you are not allowed to use `os.walk()`.
 
-### Time and Space Complexity _Explanation_
+
 
