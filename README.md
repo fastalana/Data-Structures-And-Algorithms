@@ -4,7 +4,8 @@ This repository includes answers to six questions related to the data structures
 ## Project 1 - Least Recently Used Cache (LRU)
 * Solution
 * Time and Space Complexity Explanation
-* Description _(see below)_
+
+### _Description_
 
 The lookup operation (i.e., `get()`) and `put()` / `set()` is supposed to be fast for a cache memory.
 
@@ -29,7 +30,8 @@ For the current problem, you can consider the `size of cache = 5`.
 ## Project 2 - Finding Files
 * Solution
 * Time and Space Complexity Explanation
-* Description _(see below)_
+
+### _Description_
 
 Write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
