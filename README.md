@@ -5,7 +5,7 @@ This repository includes answers to six questions related to the data structures
 * Solution
 * Time and Space Complexity Explanation
 
-### _Description_
+#### _Description:_
 
 The lookup operation (i.e., `get()`) and `put()` / `set()` is supposed to be fast for a cache memory.
 
@@ -31,7 +31,7 @@ For the current problem, you can consider the `size of cache = 5`.
 * Solution
 * Time and Space Complexity Explanation
 
-### _Description_
+#### _Description:_
 
 Write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
