@@ -70,6 +70,7 @@ Python's os module will be useful—in particular, you may want to use the follo
 * [Explanation](https://github.com/fastalana/Data-Structures/blob/master/03-HuffmanCoding.md)
 
 _Description:_
+
 A **Huffman code** is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information.
 
 The Huffman algorithm works by assigning codes that correspond to the relative frequency of each character for each character. The Huffman code can be of any length and does not require a prefix; therefore, this binary code can be visualized on a binary tree with each encoded character being stored on leafs.
@@ -96,6 +97,7 @@ You then will need to create encoding, decoding, and sizing schemas.
 * [Explanation](https://github.com/fastalana/Data-Structures/blob/master/04-ActiveDirectory.md)
 
 _Description:_
+
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
 
 Write a function that provides an efficient look up of whether the user is in a group.
@@ -105,6 +107,7 @@ Write a function that provides an efficient look up of whether the user is in a 
 * [Explanation](https://github.com/fastalana/Data-Structures/blob/master/05-BlockChain.md)
 
 _Description:_
+
 A [Blockchain](https://en.wikipedia.org/wiki/Blockchain) is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash, the [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time) when the block was created, and text strings as the data.
 
 Use your knowledge of linked lists and hashing to create a [blockchain implementation](https://github.com/fastalana/Data-Structures/blob/master/Blockchain.png).
@@ -114,6 +117,7 @@ Use your knowledge of linked lists and hashing to create a [blockchain implement
 * [Explanation](https://github.com/fastalana/Data-Structures/blob/master/06-UnionAndIntersection.md)
 
 _Description:_
+
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
 
 You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
