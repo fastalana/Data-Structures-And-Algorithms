@@ -1,9 +1,9 @@
 # Data Structures
-This repository includes answers to six questions related to the data structures.  Each answer includes Python file, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.
+This repository includes answers to six questions related to data structures.  Each problem includes a Python file with the solution, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.
 
 ## Project 1 - Least Recently Used Cache (LRU)
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 
@@ -29,7 +29,7 @@ For the current problem, you can consider the `size of cache = 5`.
 
 ## Project 2 - Finding Files
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 
@@ -67,7 +67,7 @@ Python's os module will be useful—in particular, you may want to use the follo
 
 ## Project 3 - Huffman Coding
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 A **Huffman code** is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information.
@@ -93,7 +93,7 @@ You then will need to create encoding, decoding, and sizing schemas.
 
 ## Project 4 - Active Directory
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
@@ -102,7 +102,7 @@ Write a function that provides an efficient look up of whether the user is in a 
 
 ## Project 5 - Block Chain
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 A [Blockchain](https://en.wikipedia.org/wiki/Blockchain) is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash, the [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time) when the block was created, and text strings as the data.
@@ -111,7 +111,7 @@ Use your knowledge of linked lists and hashing to create a [blockchain implement
 
 ## Project 6 - Union and Intersection of Two Linked Lists
 * Solution
-* Time and Space Complexity Explanation
+* Explanation
 
 _Description:_
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
