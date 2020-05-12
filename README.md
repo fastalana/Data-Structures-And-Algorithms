@@ -28,14 +28,14 @@ For the current problem, you can consider the `size of cache = 5`.
 ### Time and Space Complexity _Explanation_
 
 ## Project 2 - Finding Files
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/02-FileRecursion.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/02-FileRecursion.md)
 
 _Description:_
 
 Write code for finding all files under a directory (and all directories beneath it) that end with ".c"
 
-Here is an example of a test directory listing, which can be downloaded [here](/tree/Project-Show-Me-The-Data-Structures/testdir):
+Here is an example of a test directory listing, which can be downloaded [here](https://github.com/fastalana/Data-Structures/tree/master/testdir):
 ```
 ./testdir
 ./testdir/subdir1
@@ -66,8 +66,8 @@ Python's os module will be useful—in particular, you may want to use the follo
 **Note:** `os.walk()` is a handy Python method which can achieve this task very easily. However, for this problem you are not allowed to use `os.walk()`.
 
 ## Project 3 - Huffman Coding
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/03-HuffmanCoding.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/03-HuffmanCoding.md)
 
 _Description:_
 A **Huffman code** is a type of optimal prefix code that is used for compressing data. The Huffman encoding and decoding schema is also lossless, meaning that when compressing the data to make it smaller, there is no loss of information.
@@ -92,8 +92,8 @@ Here is one type of pseudocode for this coding schema:
 You then will need to create encoding, decoding, and sizing schemas.
 
 ## Project 4 - Active Directory
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/04-ActiveDirectory.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/04-ActiveDirectory.md)
 
 _Description:_
 In Windows Active Directory, a group can consist of user(s) and group(s) themselves. We can construct this hierarchy as such. Where User is represented by str representing their ids.
@@ -101,17 +101,17 @@ In Windows Active Directory, a group can consist of user(s) and group(s) themsel
 Write a function that provides an efficient look up of whether the user is in a group.
 
 ## Project 5 - Block Chain
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/05-BlockChain.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/05-BlockChain.md)
 
 _Description:_
 A [Blockchain](https://en.wikipedia.org/wiki/Blockchain) is a sequential chain of records, similar to a linked list. Each block contains some information and how it is connected related to the other blocks in the chain. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. For our blockchain we will be using a [SHA-256](https://en.wikipedia.org/wiki/SHA-2) hash, the [Greenwich Mean Time](https://en.wikipedia.org/wiki/Greenwich_Mean_Time) when the block was created, and text strings as the data.
 
-Use your knowledge of linked lists and hashing to create a [blockchain implementation](/view/Lesson-2-Data-Structures/Project-Show-Me-The-Data-Structures/Blockchain.png).
+Use your knowledge of linked lists and hashing to create a [blockchain implementation](https://github.com/fastalana/Data-Structures/blob/master/Blockchain.png).
 
 ## Project 6 - Union and Intersection of Two Linked Lists
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/06-UnionAndIntersection.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/06-UnionAndIntersection.md)
 
 _Description:_
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
