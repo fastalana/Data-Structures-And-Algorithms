@@ -1,3 +1,4 @@
 ## Explanation
 
-The `cache` is a dictonary/map.  When the `get()` and `set()` methods are called this is a simple lookup with a key making the complexity O(1).  `recent_keys` is a queue that keeps track of the order in which the cache has been accessed; adding keys to the end of `recent_key` when the `get()` **or** `set()` methods are called, also with a complexity of O(1).  However, the function `cache` must check to see if the key is in the `recent_keys` list, making the complexity O(n).
+This problem was solved recursively, visiting each folder.  The complexity is dependent on the depth and width of the folders; i.e. how many folders and how deep does the folder strucutre go.  In this case the complexity is O(d*w) where _w_ is the maxium number of folders at any given path and _d_ is the maxium number of folders within any given folder.
+
