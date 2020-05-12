@@ -2,8 +2,8 @@
 This repository includes answers to six questions related to data structures.  Each problem includes a Python file with the solution, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.
 
 ## Project 1 - Least Recently Used Cache (LRU)
-* Solution
-* Explanation
+* [Solution](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.py)
+* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.md)
 
 _Description:_
 
