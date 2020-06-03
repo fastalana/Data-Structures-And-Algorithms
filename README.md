@@ -1,9 +1,8 @@
-# Data Structures
-This repository includes answers to six questions related to data structures.  Each problem includes a Python file with the solution, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.
+# Data Structures and Algorithms
+This repository includes answers to thirteen questions related to common algorithms and data structures.  Each answer includes Python file, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.  NOTE: Some problems can be solved without an algorithm or data structure.
 
 ## Project 1 - Least Recently Used Cache (LRU)
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.md)
 
 _Description:_
 
@@ -29,7 +28,6 @@ For the current problem, you can consider the `size of cache = 5`.
 
 ## Project 2 - Finding Files
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/02-FileRecursion.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/02-FileRecursion.md)
 
 _Description:_
 
@@ -67,7 +65,6 @@ Python's os module will be useful—in particular, you may want to use the follo
 
 ## Project 3 - Huffman Coding
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/03-HuffmanCoding.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/03-HuffmanCoding.md)
 
 _Description:_
 
@@ -94,7 +91,6 @@ You then will need to create encoding, decoding, and sizing schemas.
 
 ## Project 4 - Active Directory
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/04-ActiveDirectory.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/04-ActiveDirectory.md)
 
 _Description:_
 
@@ -104,7 +100,6 @@ Write a function that provides an efficient look up of whether the user is in a 
 
 ## Project 5 - Block Chain
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/05-BlockChain.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/05-BlockChain.md)
 
 _Description:_
 
@@ -114,10 +109,91 @@ Use your knowledge of linked lists and hashing to create a [blockchain implement
 
 ## Project 6 - Union and Intersection of Two Linked Lists
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/06-UnionAndIntersection.py)
-* [Explanation](https://github.com/fastalana/Data-Structures/blob/master/06-UnionAndIntersection.md)
 
 _Description:_
 
 Your task for this problem is to fill out the union and intersection functions. The union of two sets A and B is the set of elements which are in A, in B, or in both A and B. The intersection of two sets A and B, denoted by A ∩ B, is the set of all objects that are members of both the sets A and B.
 
 You will take in two linked lists and return a linked list that is composed of either the union or intersection, respectively. Once you have completed the problem you will create your own test cases and perform your own run time analysis on the code.
+
+## Problem 07 - Square Root of an Integer
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/01-SquareRootOfAnInteger.py)
+
+_Description:_
+
+Find the square root of the integer without using any Python library. You have to find the floor value of the square root.
+
+* For example if the given number is 16, then the answer would be 4.
+* If the given number is 27, the answer would be 5 because sqrt(5) = 5.196 whose floor value is 5.
+
+The expected time complexity is O(log(n)).
+
+## Problem 08 - Search in a Rotated Sorted Array
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/02-SearchInARotatedSortedArray.py)
+
+_Description:_
+
+You are given a sorted array which is rotated at some random pivot point.  Example: [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2].  You are given a target value to search. If found in the array return its index, otherwise return -1.
+
+You can assume there are no duplicates in the array and your algorithm's runtime complexity must be in the order of O(log n).
+
+Example: 
+* Input: nums = [4,5,6,7,0,1,2], target = 0 
+* Output: 4
+
+## Problem 09 - Rearrange Array Digits
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/03-RearrangeArrayDigits.py)
+
+_Description:_
+
+Rearrange Array Elements so as to form two numbers such that their sum is maximum. Return these two numbers. You can assume that all array elements are in the range [0, 9]. The number of digits in both the output numbers cannot differ by more than 1. You're not allowed to use any sorting function that Python provides and the expected time complexity is O(nlog(n)).
+
+Example: [1, 2, 3, 4, 5, 6], The expected answer would be [642, 531].
+
+## Problem 10 - Dutch National Flag Problem
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/04-DutchNationalFlagProblem.py)
+
+_Description:_
+
+Given an input array consisting on only 0, 1, and 2, sort the array in a single traversal. You're not allowed to use any sorting function that Python provides.
+
+Note: O(n) does not necessarily mean single-traversal. For e.g. if you traverse the array twice, that would still be an O(n) solution but it will not count as single traversal.
+
+## Problem 11 - Autocomplete with Tries
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/05-AutocompleteWithTries.py)
+
+_Description:_
+
+Using a Trie data strcuture, add the ability to list suffixes to implement an autocomplete feature. For example, if our Trie contains the words ["fun", "function", "factory"] and we ask for suffixes from the f node, we would expect to receive ["un", "unction", "actory"] back from node.suffixes().
+
+## Problem 12 - Unsorted Array Integer
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/06-UnsortedArrayInteger.py)
+
+_Description:_
+
+In this problem, we will look for smallest and largest integer from a list of unsorted integers. The code should run in O(n) time. Do not use Python's inbuilt functions to find min and max.  _Sorting usually requires O(n log n) time Can you come up with a O(n) algorithm (i.e., linear time)?_
+
+**Bonus Challenge:** Is it possible to find the max and min in a single traversal?
+
+## Problem 13 - HTTP Router Using a Trie
+* [Solution](https://github.com/fastalana/Problems-vs-Algorithms/blob/master/07-HTTPRouterUsingATrie.py)
+
+_Description:_
+
+For this exercise we are going to implement an HTTP Router like you would find in a typical web server using the Trie data structure we learned previously.
+
+There are many different implementations of HTTP Routers such as regular expressions or simple string matching, but the Trie is an excellent and very efficient data structure for this purpose.
+
+The purpose of an HTTP Router is to take a URL path like "/", "/about", or "/blog/2019-01-15/my-awesome-blog-post" and figure out what content (handler) to return. In a dynamic web server, the content will often come from a block of code called a handler.
+
+In addition to a path though, we need to know which function will handle the http request. In a real router we would probably pass an instance of a class like Python's `SimpleHTTPRequestHandler` which would be responsible for handling requests to that path. For the sake of simplicity we will just use a string that we can print out to ensure we got the right handler.
+
+We could split the path into letters similar to how we did the autocomplete Trie, but this would result in a Trie with a very large number of nodes and lengthy traversals if we have a lot of pages on our site. A more sensible way to split things would be on the parts of the path that are separated by slashes ("/"). A Trie with a single path entry of: "/about/me" would look like:
+
+`(root, None) -> ("about", None) -> ("me", "About Me handler")`
+
+We really just need to insert and find nodes, and if a RouteTrieNode is not a leaf node, it won't have a handler which is fine.  The router will initialize itself with a RouteTrie for holding routes and associated handlers. It should also support adding a handler by path and looking up a handler by path. All of these operations will be delegated to the RouteTrie.
+
+* Hint: the RouteTrie stores handlers under path parts, so remember to split your path around the '/' character
+* Bonus Points: Add a not found handler to your Router which is returned whenever a path is not found in the Trie.
+* More Bonus Points: Handle trailing slashes! A request for '/about' or '/about/' are probably looking for the same page. Requests for '' or '/' are probably looking for the root handler. Handle these edge cases in your Router.
