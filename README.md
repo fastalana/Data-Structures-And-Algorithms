@@ -1,5 +1,10 @@
 # Data Structures and Algorithms
-This repository includes answers to thirteen questions related to common algorithms and data structures.  Each answer includes Python file, as well as an introduction to the problem and an explanation about the efficiency of the code and the design choices.  NOTE: Some problems can be solved without an algorithm or data structure.
+This repository includes answers to thirteen problems related to common data structures and algorithms.  Each problem includes:
+* Description, included in this README file
+* Solution, in the format of a Python file
+* Explanation, included in a seperate README file linked [here](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.py), describing the efficiency of the code and the design choices.  
+
+NOTE: Some problems can be solved without an algorithm or data structure.
 
 ## Project 1 - Least Recently Used Cache (LRU)
 * [Solution](https://github.com/fastalana/Data-Structures/blob/master/01-LRUCache.py)
