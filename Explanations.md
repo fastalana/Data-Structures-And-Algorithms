@@ -1,12 +1,12 @@
 # Explanations
 
-## Project 1 - Least Recently Used Cache (LRU)
+## Project 01 - Least Recently Used Cache (LRU)
 The `cache` is a dictonary/map.  When the `get()` and `set()` methods are called this is a simple lookup with a key making the complexity O(1).  `recent_keys` is a queue that keeps track of the order in which the cache has been accessed; adding keys to the end of `recent_key` when the `get()` **or** `set()` methods are called; this also has a complexity of O(1).  However, the function `cache` must check to see if the key is in the `recent_keys` list, making the complexity O(n).
 
-## Project 2 - Finding Files
+## Project 02 - Finding Files
 This problem was solved recursively, visiting each folder.  The complexity is dependent on the depth and width of the folders; i.e. how many folders and how deep does the folder strucutre go.  In this case the complexity is O(d*w) where _w_ is the maxium number of folders at any given path and _d_ is the maxium number of folders within any given folder.
 
-## Project 3 - Huffman Coding
+## Project 03 - Huffman Coding
 To implement the Huffmann Algorithm required the construction of several classes and functions.  Each of those functions are outlined below, along with an explanation of their implementation and complexity:
 
 * Node - class with only one `__init__` function, O(1)
@@ -22,13 +22,13 @@ To implement the Huffmann Algorithm required the construction of several classes
 Summary:
 The time complexity to encode and decode a string using Huffman Coding is O(nlogn).
 
-## Project 4 - Active Directory
+## Project 04 - Active Directory
 This problem was solved recursively, visiting each group, to check if the user is in the group.  The complexity is dependent on the number of groups and the number of users.  In this case the complexity is O(g*u) where _g_ is the maxium number of groups in any given group and _u_ is the maxium number of users within any given group.
 
-## Project 5 - Block Chain
+## Project 05 - Block Chain
 This problem was solved used a linked list.  Each new node points to the previous hash.  Each time a new node is added we add it to the end of the list.  However, if we keep track of the end of the list, which we do, the new block can be added directly to the end of the current blockchain making the complexity is O(1).
 
-## Project 6 - Union and Intersection of Two Linked Lists
+## Project 06 - Union and Intersection of Two Linked Lists
 For the union and intersection the linked lists were transformed into lists.  The location/ order of the list is irrelevant, however the value was critical to determine the union and intersected sets.  Once the intersection or union was known the list was transformed back into a linked list.  Let's take a closer look at the complexity of each of these functions.
 
 * Union 
